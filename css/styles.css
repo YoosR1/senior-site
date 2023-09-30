@@ -1,14 +1,27 @@
 #nav {
-    /* height: 100%;
-    width: 25%;
-    background-color: darkgreen;
+    width: 20%;
+    height: 100%;
+    position: fixed;
     top: 0;
     left: 0;
-    overflow-x: hidden; */
+    background-color: #9BC32F;
+    overflow-x: hidden;
+}
+
+#nav a{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 #main {
-    /* margin-left: 25%;
+    margin-left: 25%;
+    margin-right: 5%;
     height: 100%;
-    top: 0; */
+    top: 0;
+}
+
+.list {
+    padding-top: 10%;
+    line-height: 2.2;
 }
