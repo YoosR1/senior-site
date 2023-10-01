@@ -32,3 +32,25 @@
     padding-top: 10%;
     line-height: 2.2;
 }
+
+.profile {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    min-width: 250px; 
+    /* width might be breaking text centering */
+    padding-inline: 2%;
+    padding-bottom: 40px;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #9BC32F; 
+    border-style: solid;
+}
+
+.profList {
+    flex-direction: row;
+}
