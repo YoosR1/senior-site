@@ -66,3 +66,32 @@ h1 {
 .profList {
     flex-direction: row;
 }
+
+.butList {
+    flex-direction: row;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    display: inline-table;
+    align-items: center;
+    vertical-align: center;
+    background-color: #9BC32F;
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #D9D9D9;
+    /* color: white; */
+  }
+
+/* .button h2 {
+    padding-top: 10%;
+} */
